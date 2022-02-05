@@ -23,21 +23,21 @@ const Categories = () => {
       
     <div class="w-full max-w-sm px-4 py-3 mx-auto bg-white rounded-md shadow-md dark:bg-gray-800">
         <div class="flex items-center justify-between">
-            <span class="text-sm font-light text-gray-800 dark:text-gray-400">Courses and MOOCs</span>
-            <span class="px-3 py-1 text-xs text-blue-800 uppercase bg-blue-200 rounded-full dark:bg-blue-300 dark:text-blue-900">psychology</span>
+            <span class="text-sm font-light text-gray-800 dark:text-gray-400"></span>
+            <span class="px-3 py-1 text-xs text-blue-800 uppercase bg-blue-200 rounded-full dark:bg-blue-300 dark:text-blue-900"></span>
         </div>
 
         <div>
-            <h1 class="mt-2 text-lg font-semibold text-gray-800 dark:text-white">AP® Psychology - Course 5: Health and Behavior</h1>
-            <p class="mt-2 text-sm text-gray-600 dark:text-gray-300">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio eligendi similique exercitationem optio libero vitae accusamus cupiditate laborum eos.</p>
+            <h1 class="mt-2 text-lg font-semibold text-gray-800 dark:text-white"></h1>
+            <p class="mt-2 text-sm text-gray-600 dark:text-gray-300"></p>
         </div>
 
         <div>
             <div class="flex items-center mt-2 text-gray-700 dark:text-gray-200">
                 <span>Visit on:</span>
-                <a class="mx-2 text-blue-600 cursor-pointer dark:text-blue-400 hover:underline">edx.org</a>
+                <a class="mx-2 text-blue-600 cursor-pointer dark:text-blue-400 hover:underline"></a>
                 <span>or</span>
-                <a class="mx-2 text-blue-600 cursor-pointer dark:text-blue-400 hover:underline">classcentral.com</a>
+                <a class="mx-2 text-blue-600 cursor-pointer dark:text-blue-400 hover:underline"></a>
             </div>
 
             <div class="flex items-center justify-center mt-4">
