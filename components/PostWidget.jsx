@@ -22,8 +22,10 @@ const  PostWidget = ({ categories, slug }) => {
 
       {relatedPosts.map((post) => (
         
+        
 
       <div key={post.title} className='flex items-center w-full mb-4'>
+        
         
       <div className='w-16 flex-none'>
       <img
@@ -44,9 +46,17 @@ const  PostWidget = ({ categories, slug }) => {
 
           </div>
           
+          
         </div>
+        
+        
       
       ))}
+      <div class="px-6 py-4 bg-blue-50 rounded-lg text-blue-500">
+  Comment Section <span class="font-bold">will not work </span>, under Developement.
+</div>
+
+      
       
     <div class="max-w-md px-8 py-4 mx-auto mt-16 bg-white rounded-lg shadow-lg dark:bg-gray-800">
         <div class="flex justify-center -mt-16 md:justify-end">
@@ -60,9 +70,16 @@ const  PostWidget = ({ categories, slug }) => {
         <div class="flex justify-end mt-4">
             <a href="#" class="text-xl font-medium text-blue-500 dark:text-blue-300">@dipanshuLpu</a>
         </div>
+        
     </div>
+    
+    
     </div>
+    
+    
   )
+  
 }
+
 
 export default PostWidget

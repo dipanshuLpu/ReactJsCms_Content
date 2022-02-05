@@ -16,17 +16,22 @@ const Header = () => {
     });
   }, []);
   return (
+    
     <div className="container mx-auto px-10 mb-8">
+      
     <div className="border-b w-full inline-block border-blue-400 py-8">
       <div className="md:float-left block">
+        
         <Link href="/">
           <span className="cursor-pointer font-bold text-4xl text-white">Tech Flow</span>
           
         </Link>
-        <div><span className=" text-2xs text-white">By Dipanshu Bhangale  👻 </span></div>
+        <div><span className=" text-2xs text-white">By Dipanshu Bhangale  👻 </span>
+        </div>
         
         
     <div class="flex items-center py-4 overflow-y-auto whitespace-nowrap">
+      
       
         <a href="#" class="text-gray-600 dark:text-gray-200">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
@@ -86,7 +91,9 @@ const Header = () => {
               </Link>
         ))}
       </div>
+      
     </div>
+    
   </div>
 );
 };
